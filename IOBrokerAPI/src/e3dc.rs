@@ -10,10 +10,9 @@ pub struct Battery {
     pub soc:f32
 }
 
-/// list 50 last tweets `/tweets`
+/// Get the battery status from e3dc iobroker
 #[get("/e3dc/battery")]
 pub async fn get_battery() -> HttpResponse {
-    // TODO find the last 50 tweets and return them
 
     let battery_value = Battery { soc: 22.5 };
 
