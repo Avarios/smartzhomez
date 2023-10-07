@@ -26,7 +26,7 @@ async fn main() -> io::Result<()> {
             // register HTTP requests handlers
             .service(e3dc::get_battery)
     })
-    .bind("0.0.0.0:9090")?
+    .bind(addrres)?
     .run()
     .await
 }
