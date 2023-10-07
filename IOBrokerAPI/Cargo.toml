@@ -1,5 +1,5 @@
 [package]
-name = "IOBrokerAPI"
+name = "iobroker_api"
 version = "0.1.0"
 edition = "2021"
 

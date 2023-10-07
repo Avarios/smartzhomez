@@ -8,7 +8,7 @@ use actix_web::{middleware, App, HttpServer};
 #[derive(Parser,Debug)]
 #[command(name = "IOBrokerAPI", version = "0.1.0", author = "Pawel Warmuth")]
 pub struct CommandLineArgs {
-    #[arg(long = "port", short = 'p', default_value = "9000")]
+    #[arg(short = 'p', default_value = "9000")]
     port:String
 }
 
