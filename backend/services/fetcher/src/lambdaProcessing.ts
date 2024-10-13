@@ -72,7 +72,6 @@ const processLambdaData = async (): Promise<void> => {
     }
     const exceptions = [
         "Heatpump_InverterActualPower",
-        "Heatpump_RequestType",
         "Heatpump_OperatingState",
         "Heatpump_State"]
     const changes = getChangedValues(lastLambdaResponse, lambdaResult, exceptions);
