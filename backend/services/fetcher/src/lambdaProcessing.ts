@@ -67,7 +67,7 @@ const processLambdaData = async (): Promise<void> => {
     console.log(lambdaResult);
     if (!lastLambdaResponse) {
         lastLambdaResponse = lambdaResult;
-        //writeToInfluxDB("Heating", mapToRecord(lambdaResult));
+        writeToInfluxDB("Heating", mapToRecord(lambdaResult));
         console.log(lastLambdaResponse);
     }
     const exceptions = [
@@ -78,7 +78,7 @@ const processLambdaData = async (): Promise<void> => {
     const changes = getChangedValues(lastLambdaResponse, lambdaResult, exceptions);
     if (changes) {
         console.log("Found Changes: \n", changes);
-        //writeToInfluxDB("Heating", mapToRecord(changes));
+        writeToInfluxDB("Heating", mapToRecord(changes));
     }
     lastLambdaResponse = lambdaResult;
 }
