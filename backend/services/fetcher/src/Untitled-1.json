@@ -1,0 +1,650 @@
+{
+  "modbus.0.holdingRegisters.40001_Ambient_Error": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117372963,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954432
+  },
+  "modbus.0.holdingRegisters.40002_Ambient_State": {
+    "val": 1,
+    "ack": true,
+    "ts": 1727117372963,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954791
+  },
+  "modbus.0.holdingRegisters.40003_Ambient_Temp": {
+    "val": 16.6,
+    "ack": true,
+    "ts": 1727117606198,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117606198
+  },
+  "modbus.0.holdingRegisters.40004_Ambient_1h_Temp": {
+    "val": 16.9,
+    "ack": true,
+    "ts": 1727117372982,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117127504
+  },
+  "modbus.0.holdingRegisters.40005_Ambient_Calculated_Temp": {
+    "val": 18.8,
+    "ack": true,
+    "ts": 1727117372982,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117127545
+  },
+  "modbus.0.holdingRegisters.40101_E_Manager_Error": {
+    "val": -1,
+    "ack": true,
+    "ts": 1727117372983,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954811
+  },
+  "modbus.0.holdingRegisters.40102_E_Manager_State": {
+    "val": 3,
+    "ack": true,
+    "ts": 1727117372983,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954811
+  },
+  "modbus.0.holdingRegisters.40103_E-Manager_ExcessPower": {
+    "val": -32768,
+    "ack": true,
+    "ts": 1727117373012,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954841
+  },
+  "modbus.0.holdingRegisters.40104_E_Manager_Actual": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373013,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954453
+  },
+  "modbus.0.holdingRegisters.40105_E_Manager_Setpoint": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373013,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954456
+  },
+  "modbus.0.holdingRegisters.41001_HP1_Error_State": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373013,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954458
+  },
+  "modbus.0.holdingRegisters.41002_HP1_Error": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373014,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954461
+  },
+  "modbus.0.holdingRegisters.41003_HP1_State": {
+    "val": 7,
+    "ack": true,
+    "ts": 1727117373014,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727116709222
+  },
+  "modbus.0.holdingRegisters.41004_HP1_OperatingState": {
+    "val": 2,
+    "ack": true,
+    "ts": 1727117373014,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727116351312
+  },
+  "modbus.0.holdingRegisters.41005_HP1_T_Flow": {
+    "val": 51,
+    "ack": true,
+    "ts": 1727117787485,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117787485
+  },
+  "modbus.0.holdingRegisters.41006_HP1_T_Return": {
+    "val": 45.23,
+    "ack": true,
+    "ts": 1727117787485,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117787485
+  },
+  "modbus.0.holdingRegisters.41007_HP1_Vol_Sink": {
+    "val": 1024,
+    "ack": true,
+    "ts": 1727117787525,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117787525
+  },
+  "modbus.0.holdingRegisters.41008_HP1_T_EQin": {
+    "val": 16.74,
+    "ack": true,
+    "ts": 1727117787525,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117787525
+  },
+  "modbus.0.holdingRegisters.41009_HP1_T_EQout": {
+    "val": -327.68,
+    "ack": true,
+    "ts": 1727117373042,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954844
+  },
+  "modbus.0.holdingRegisters.41010_HP1_Vol_Source": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373042,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954482
+  },
+  "modbus.0.holdingRegisters.41011_HP1_CompressorRating": {
+    "val": 24.88,
+    "ack": true,
+    "ts": 1727117787525,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117787525
+  },
+  "modbus.0.holdingRegisters.41012_HP1_QpHeating": {
+    "val": 6.9,
+    "ack": true,
+    "ts": 1727117727113,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117727113
+  },
+  "modbus.0.holdingRegisters.41013_HP1_FI_PowerConsumption": {
+    "val": 1293,
+    "ack": true,
+    "ts": 1727117727114,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117727114
+  },
+  "modbus.0.holdingRegisters.41014_HP1_COP": {
+    "val": 5.32,
+    "ack": true,
+    "ts": 1727117787525,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117787525
+  },
+  "modbus.0.holdingRegisters.41015_HP1_ReleasePassword": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373042,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954493
+  },
+  "modbus.0.holdingRegisters.41016_HP1_RequestType": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373042,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954495
+  },
+  "modbus.0.holdingRegisters.41017_HP1_RequestT_Flow": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373042,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954497
+  },
+  "modbus.0.holdingRegisters.41018_HP1_RequestT_Return": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373042,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954499
+  },
+  "modbus.0.holdingRegisters.41019_HP1_RequestT_Diff": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373042,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954501
+  },
+  "modbus.0.holdingRegisters.41020_HP1_RelaisState": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373043,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954503
+  },
+  "modbus.0.holdingRegisters.41021_HP1_VdA_E": {
+    "val": 4.25,
+    "ack": true,
+    "ts": 1727117787525,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117787525
+  },
+  "modbus.0.holdingRegisters.41023_HP1_VdA_Q": {
+    "val": 30.07,
+    "ack": true,
+    "ts": 1727117787525,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117787525
+  },
+  "modbus.0.holdingRegisters.41051_HP1_SetErrorQuitt": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373062,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954509
+  },
+  "modbus.0.holdingRegisters.42002_Boiler1_OperatingState": {
+    "val": 1,
+    "ack": true,
+    "ts": 1727117373062,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727116351402
+  },
+  "modbus.0.holdingRegisters.42003_Boiler1_ActualHighTemp": {
+    "val": 48.6,
+    "ack": true,
+    "ts": 1727117666751,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117666751
+  },
+  "modbus.0.holdingRegisters.42004_Boiler1_ActualLowTemp": {
+    "val": 48.6,
+    "ack": true,
+    "ts": 1727117666751,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117666751
+  },
+  "modbus.0.holdingRegisters.42051_Boiler1_MaximumTemp": {
+    "val": 50,
+    "ack": true,
+    "ts": 1727117373122,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727114915158
+  },
+  "modbus.0.holdingRegisters.43001_Buffer1_Error": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373123,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954520
+  },
+  "modbus.0.holdingRegisters.43002_Buffer1_OperatingState": {
+    "val": 3,
+    "ack": true,
+    "ts": 1727117373123,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954950
+  },
+  "modbus.0.holdingRegisters.43003_Buffer1_ActualHighTemp": {
+    "val": 48,
+    "ack": true,
+    "ts": 1727117787594,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117787594
+  },
+  "modbus.0.holdingRegisters.43004_Buffer1_ActualLowTemp": {
+    "val": 45.2,
+    "ack": true,
+    "ts": 1727117787635,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117787635
+  },
+  "modbus.0.holdingRegisters.43051_Buffer1_MaximumTemp": {
+    "val": 60,
+    "ack": true,
+    "ts": 1727117373172,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955003
+  },
+  "modbus.0.holdingRegisters.45001_Heating1_Error": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373172,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954532
+  },
+  "modbus.0.holdingRegisters.45002_Heating1_OperatingState": {
+    "val": 9,
+    "ack": true,
+    "ts": 1727117373173,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955003
+  },
+  "modbus.0.holdingRegisters.45003_Heating1_T_Flow": {
+    "val": 21.6,
+    "ack": true,
+    "ts": 1727117373201,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727112891747
+  },
+  "modbus.0.holdingRegisters.45004_Heating1_T_Return": {
+    "val": -300,
+    "ack": true,
+    "ts": 1727117373202,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955029
+  },
+  "modbus.0.holdingRegisters.45005_Heating1_RoomTemp": {
+    "val": -300,
+    "ack": true,
+    "ts": 1727117373202,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955029
+  },
+  "modbus.0.holdingRegisters.45006_Heating1_RequestT_Flow": {
+    "val": -300,
+    "ack": true,
+    "ts": 1727117373202,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955029
+  },
+  "modbus.0.holdingRegisters.45007_Heating1_OperatingMode": {
+    "val": -1,
+    "ack": true,
+    "ts": 1727117373202,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955029
+  },
+  "modbus.0.holdingRegisters.45051_Heating1_OffsetFlowLineTemp": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373221,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954548
+  },
+  "modbus.0.holdingRegisters.45052_Heating1_RoomHeatingTemp": {
+    "val": 23,
+    "ack": true,
+    "ts": 1727117373221,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955030
+  },
+  "modbus.0.holdingRegisters.45053_Heating1_RoomCoolingTemp": {
+    "val": 23,
+    "ack": true,
+    "ts": 1727117373221,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955050
+  },
+  "modbus.0.holdingRegisters.45101_Heating2_Error": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373251,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954554
+  },
+  "modbus.0.holdingRegisters.45102_Heating2_OperatingState": {
+    "val": 9,
+    "ack": true,
+    "ts": 1727117373251,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955050
+  },
+  "modbus.0.holdingRegisters.45103_Heating2_T_Flow": {
+    "val": 22.1,
+    "ack": true,
+    "ts": 1727117787694,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727117787694
+  },
+  "modbus.0.holdingRegisters.45104_Heating2_T_Return": {
+    "val": -300,
+    "ack": true,
+    "ts": 1727117373251,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955079
+  },
+  "modbus.0.holdingRegisters.45105_Heating2_RoomTemp": {
+    "val": -300,
+    "ack": true,
+    "ts": 1727117373251,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955079
+  },
+  "modbus.0.holdingRegisters.45106_Heating2_RequestT_Flow": {
+    "val": -300,
+    "ack": true,
+    "ts": 1727117373251,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955079
+  },
+  "modbus.0.holdingRegisters.45107_Heating2_OperatingMode": {
+    "val": -1,
+    "ack": true,
+    "ts": 1727117373251,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955080
+  },
+  "modbus.0.holdingRegisters.45151_Heating2_OffsetFlowLineTemp": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727117373253,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954573
+  },
+  "modbus.0.holdingRegisters.45152_Heating2_RoomHeatingTemp": {
+    "val": 23,
+    "ack": true,
+    "ts": 1727117373253,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955081
+  },
+  "modbus.0.holdingRegisters.45153_Heating2_RoomCoolingTemp": {
+    "val": 23,
+    "ack": true,
+    "ts": 1727117373322,
+    "q": 0,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111955153
+  },
+  "modbus.0.holdingRegisters.45201_Heating3_Error": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727111954578,
+    "q": 32,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954578
+  },
+  "modbus.0.holdingRegisters.45202_Heating3_OperatingState": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727111954581,
+    "q": 32,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954581
+  },
+  "modbus.0.holdingRegisters.45203_Heating3_T_Flow": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727111954583,
+    "q": 32,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954583
+  },
+  "modbus.0.holdingRegisters.45204_Heating3_T_Return": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727111954586,
+    "q": 32,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954586
+  },
+  "modbus.0.holdingRegisters.45205_Heating3_RoomTemp": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727111954589,
+    "q": 32,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954589
+  },
+  "modbus.0.holdingRegisters.45206_Heating3_RequestT_Flow": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727111954591,
+    "q": 32,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954591
+  },
+  "modbus.0.holdingRegisters.45207_Heating3_OperatingMode": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727111954594,
+    "q": 32,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954594
+  },
+  "modbus.0.holdingRegisters.45251_Heating3_OffsetFlowLineTemp": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727111954596,
+    "q": 32,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954596
+  },
+  "modbus.0.holdingRegisters.45252_Heating3_RoomHeatingTemp": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727111954598,
+    "q": 32,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954598
+  },
+  "modbus.0.holdingRegisters.45253_Heating3_RoomCoolingTemp": {
+    "val": 0,
+    "ack": true,
+    "ts": 1727111954600,
+    "q": 32,
+    "from": "system.adapter.modbus.0",
+    "user": "system.user.admin",
+    "lc": 1727111954600
+  }
+}

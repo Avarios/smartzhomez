@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.35.0",
+    "croner": "^8.1.2"
+  }
+}

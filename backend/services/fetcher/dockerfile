@@ -1,0 +1,20 @@
+FROM denoland/deno:2.0.0
+
+# The port that your application listens to.
+#EXPOSE 1993
+
+WORKDIR /app
+
+
+# These steps will be re-run upon each file change in your working directory:
+COPY ./src .
+RUN deno install
+# Compile the main app so that it doesn't need to be compiled each startup/entry.
+RUN deno cache main.ts
+ENV INFLUXDB_TOKEN=izBW0BXEOoIGFgK9p2zftek1iwGQcxr90qTEVpusN7HC0cCVcGLyAOUqQWv8C9lOQdEo2geCw_r0WKtyoqZ-Vw==
+ENV INFLUXDB_URL=http://192.168.68.68:8086
+ENV IOBROKER_URL=http://192.168.68.68:8093
+
+
+
+CMD ["run", "--allow-net","--allow-env", "main.ts"]
